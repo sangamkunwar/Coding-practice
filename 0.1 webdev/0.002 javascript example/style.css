@@ -1,0 +1,23 @@
+.containor{
+    height: 60px;
+    width: 500px;
+    background-color: rgb(127, 255, 212);
+    display: flex;
+    overflow: hidden;
+    border: 2px solid;
+}
+.containa{
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    margin: 4px;
+    border: 2px solid;
+    padding: 4px;
+    background-color: aqua;
+}
+.at{
+    height: 80px;
+    width: 500px;
+    overflow: auto;
+}

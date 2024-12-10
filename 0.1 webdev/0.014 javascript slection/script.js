@@ -1,0 +1,13 @@
+const element = document.getElementById("myElementId");
+const elements = document.getElementsByClassName("myClassName");
+const elements0 = document.getElementsByTagName("div");
+const element0 = document.querySelector(".myClassName");
+const elements1 = document.querySelectorAll(".myClassName");
+const element1 = document.querySelector("#myElementId");
+element1.innerText = "New Text";
+element1.innerHTML = "<strong>New HTML Content</strong>";
+element1.style.color = "red";
+element1.style.fontSize = "20px";
+element1.classList.add("newClass");
+element1.classList.remove("oldClass");
+element1.classList.toggle("toggleClass");

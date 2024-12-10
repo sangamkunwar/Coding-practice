@@ -1,0 +1,16 @@
+.containor {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(139, 253, 86);
+    margin: 25px;
+    padding: 25px;
+    
+}
+
+.contain {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    margin: 25px;
+    padding: 25px;
+}

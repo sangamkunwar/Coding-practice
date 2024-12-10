@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>javascript slection</title>
+</head>
+<body>
+  <div id="myElementId">Hello, World!</div>
+  <script>
+    const element = document.getElementById('myElementId');
+    console.log(element.innerText); // Outputs: Hello, World!
+  </script>
+  <div class="myClassName">Item 1</div>
+  <div class="myClassName">Item 2</div>
+  <script>
+    const elements = document.getElementsByClassName('myClassName');
+    console.log(elements[0].innerText); // Outputs: Item 1
+  </script>
+  <div>Item A</div>
+  <div>Item B</div>
+  <script>
+    const elements = document.getElementsByTagName('div');
+    console.log(elements[0].innerText); // Outputs: Item A
+  </script>
+  <div class="myClassName">Item 1</div>
+  <div class="myClassName">Item 2</div>
+  <script>
+    const element = document.querySelector('.myClassName');
+    console.log(element.innerText); // Outputs: Item 1
+  </script>
+  <div class="myClassName">Item 1</div>
+  <div class="myClassName">Item 2</div>
+  <script>
+    const elements = document.querySelectorAll('.myClassName');
+    elements.forEach(element => console.log(element.innerText));
+    // Outputs:
+    // Item 1
+    // Item 2
+  </script>
+</body>
+</html>

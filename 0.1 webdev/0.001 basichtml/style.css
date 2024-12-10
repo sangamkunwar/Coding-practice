@@ -1,0 +1,16 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+.continor {
+    background-color: rgb(116, 240, 198);
+    height: 60px;
+    width: 60px;
+}
+
+.contain {
+    background-color: aqua;
+    height: 40px;
+    width: 40px;
+}
